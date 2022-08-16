@@ -1,0 +1,9 @@
+name: First github action
+on: [push]
+
+job:
+  run-shell-command:
+    run-on: ubuntu-latest 
+    steps:
+      - name: Echoing my command
+        run: echo "Fist echo command"
